@@ -1,6 +1,6 @@
 export const client = {
   create: async (doc: any) => {
-    console.log("📝 Dummy create called with:", doc);
+ //   console.log("📝 Dummy create called with:", doc);
     return Promise.resolve({ _id: "dummy-id-123" });
   },
   assets: {
