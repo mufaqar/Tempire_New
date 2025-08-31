@@ -5,7 +5,7 @@ export const client = {
   },
   assets: {
     upload: async (type: string, file: File, options: any) => {
-      console.log("📂 Dummy upload called with:", { type, file, options });
+      //console.log("Dummy upload called with:", { type, file, options });
       return Promise.resolve({
         _id: "dummy-asset-123",
         url: URL.createObjectURL(file), 
